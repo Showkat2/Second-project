@@ -16,6 +16,28 @@
     width: 130px;
     height: auto;
 }
+
+/* frist text color img */
+.frist-text{
+    font-weight: bold;
+    font-size: 4.0625rem;
+}
+.frist-color{
+    color: rgba(233, 90, 8, 1);
+}
+.frist-pre{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+.frist-sec{
+    display: flex;
+}
+.frist-img{
+   width: 570px;
+   height: 377px;
+}
+
+
 @media screen and (max-width: 576px){
     .dot{
         display: none;
@@ -25,5 +47,12 @@
         align-items: center;
         font-size: 15px;
         gap: 5px;
+    }
+    .frist-sec{
+        flex-direction: column-reverse;
+    }
+    .frist-img{
+    width: 100%;
+    height: 100%;
     }
 }
