@@ -67,14 +67,14 @@
     background-color: rgba(233, 90, 8, 1);
     color: white;
     border: none;
-    width: 270px;
+    width: 250px;
     height: 50px;
 
   
 }
 .img-card{
     width: 100%;
-    max-width: 270px;
+    max-width: 250px;
 
 }
 .usd{
@@ -103,6 +103,12 @@
 .right-text{
     margin-left: 30px;
 }
+.model{
+    width: 170px;
+    height: 170px;
+    transform: translate(500px, -70px);
+    
+}
 /* four */
 .four-text{
     font-weight: bold;
@@ -115,6 +121,23 @@
     text-align: center;
     margin-bottom: 40px;
 }
+
+/* image section*/
+
+.twoimg{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   }
+   .img-section{
+    display: flex;
+
+   }
+   .imgg3{
+    width: 600px;
+    height: 423px;
+    margin-left: 20px;
+   }
 
 
 
@@ -174,4 +197,18 @@
     width: 260px;
     height: 300px;
    margin: 0 auto;
+    }
+    .img-section{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        align-items: center;
+    }
+    .imgg3{
+        width: 330px;
+        height: 250px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
 }
