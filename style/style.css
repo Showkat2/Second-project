@@ -264,7 +264,9 @@ li{
     width: 100%;
     height: 100%;
     }
-
+    .frist-text{
+        font-size: 3rem;
+    }
 
     .second-center{
         padding: 30px 15px;
@@ -304,7 +306,7 @@ li{
     }
     .img-flo{
     width: 260px;
-    height: 300px;
+    height: 280px;
    margin: 0 auto;
     }
     .img-section{
@@ -314,17 +316,24 @@ li{
         height: auto;
         align-items: center;
     }
+    .imgg1{
+        width: 300px;
+        
+    }
+    .imgg2{
+        width: 300px;
+    }
     .imgg3{
-        width: 330px;
-        height: 250px;
+        width: 300px;
+        heig;
         margin-top: 5px;
         margin-right: 5px;
     }
 .subscribe-section{
     min-height: auto;
     margin-bottom: 200px; 
-    width: 350px;
-    height:275px;
+    width: 300px;
+    height:250px;
     }
  
 /* footer */
