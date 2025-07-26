@@ -317,15 +317,16 @@ li{
         align-items: center;
     }
     .imgg1{
-        width: 300px;
+        width: 280px;
         
     }
     .imgg2{
-        width: 300px;
+        width: 280px;
     }
     .imgg3{
-        width: 300px;
-        heig;
+        width: 260px;
+        height: 260px;
+        
         margin-top: 5px;
         margin-right: 5px;
     }
