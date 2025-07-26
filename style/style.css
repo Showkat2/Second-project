@@ -304,15 +304,18 @@ li{
     .model{
         display: none;
     }
+    .parent-of-img-flo{
+        text-align: center;
+    }
     .img-flo{
+    display: inline-block;
     width: 260px;
     height: 280px;
-   margin: 0 auto;
     }
     .img-section{
         display: flex;
         flex-direction: column;
-        width: 100%$;
+        width: 100%;
         height: auto;
         align-items: center;
     }
